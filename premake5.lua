@@ -11,6 +11,8 @@ project "googlemock"
 	{
 		"googlemock/include/gmock/**.h",
     	"googlemock/src/**.cc",
+		"googletest/include/gtest/**.h",
+    	"googletest/src/**.cc",
 	}
 
 	includedirs
